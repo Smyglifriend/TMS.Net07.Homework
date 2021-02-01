@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Net07.Homework.DaysOfWeek", "TMS.Net07.Homework.DaysOfWeek.csproj", "{C5619E4D-1322-4D5E-BC2C-A23C989B9AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Net07.Homework.DaysOfWeek.MiddleLevel", "..\TMS.Net07.Homework.DaysOfWeek.MiddleLevel\TMS.Net07.Homework.DaysOfWeek.MiddleLevel.csproj", "{29D01307-51B3-46D4-9CC1-6E3CA94D802F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5619E4D-1322-4D5E-BC2C-A23C989B9AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5619E4D-1322-4D5E-BC2C-A23C989B9AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5619E4D-1322-4D5E-BC2C-A23C989B9AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5619E4D-1322-4D5E-BC2C-A23C989B9AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D01307-51B3-46D4-9CC1-6E3CA94D802F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D01307-51B3-46D4-9CC1-6E3CA94D802F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D01307-51B3-46D4-9CC1-6E3CA94D802F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D01307-51B3-46D4-9CC1-6E3CA94D802F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE34161C-48A1-47CA-9E3D-40D15FA48256}
+	EndGlobalSection
+EndGlobal
