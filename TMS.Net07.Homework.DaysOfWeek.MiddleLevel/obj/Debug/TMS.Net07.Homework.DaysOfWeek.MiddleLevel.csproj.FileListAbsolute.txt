@@ -4,3 +4,4 @@ C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Ne
 C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek.MiddleLevel\obj\Debug\TMS.Net07.Homework.DaysOfWeek.MiddleLevel.csproj.CoreCompileInputs.cache
 C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek.MiddleLevel\obj\Debug\TMS.Net07.Homework.DaysOfWeek.MiddleLevel.exe
 C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek.MiddleLevel\obj\Debug\TMS.Net07.Homework.DaysOfWeek.MiddleLevel.pdb
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek.MiddleLevel\obj\Debug\TMS.Net07.Homework.DaysOfWeek.MiddleLevel.csprojAssemblyReference.cache

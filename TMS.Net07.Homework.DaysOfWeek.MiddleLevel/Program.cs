@@ -15,16 +15,18 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
                 var exit = "You closed the program!";
                 return exit;
             }
-            try
+
+            //DateTime objDate = Convert.ToDateTime(date);
+
+            if (DateTime.TryParse(date, out var objDate))
             {
-                DateTime objdate = Convert.ToDateTime(date);
-                return objdate.DayOfWeek.ToString();
+                return objDate.DayOfWeek.ToString();
             }
-            catch (Exception)
+            else
             {
-                Console.WriteLine("Bad input! ");
+
+                return "Bad input!";
             }
-            return date;
         }
         static string GetDayOfWeekHardLevel(string date)
         {
@@ -53,14 +55,17 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
         }
         static void Main(string[] args)
         {
-            Console.Write("Input date: ");
-            var date = Console.ReadLine();
+            while (true)
+            {
+                Console.Write("Input date: ");
+                var date = Console.ReadLine();
 
-            var dayOfWeekFromMiddleLevel = GetDayOfWeekMiddleLevel(date);
-            var dayOfWeekTimeFromHardLevel = GetDayOfWeekHardLevel(date);
+                var dayOfWeekFromMiddleLevel = GetDayOfWeekMiddleLevel(date);
+                var dayOfWeekTimeFromHardLevel = GetDayOfWeekHardLevel(date);
 
-            Console.WriteLine($"Result from middle level: {dayOfWeekFromMiddleLevel}");
-            Console.WriteLine($"Result from hard level: {dayOfWeekTimeFromHardLevel}");
+                Console.WriteLine($"Result from middle level: {dayOfWeekFromMiddleLevel}");
+                Console.WriteLine($"Result from hard level: {dayOfWeekTimeFromHardLevel}");
+            }
         }
     }
 }

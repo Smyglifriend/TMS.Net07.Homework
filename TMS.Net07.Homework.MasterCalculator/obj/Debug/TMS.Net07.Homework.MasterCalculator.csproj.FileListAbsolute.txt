@@ -1,0 +1,7 @@
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\bin\Debug\TMS.Net07.Homework.MasterCalculator.exe.config
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\bin\Debug\TMS.Net07.Homework.MasterCalculator.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\bin\Debug\TMS.Net07.Homework.MasterCalculator.pdb
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\obj\Debug\TMS.Net07.Homework.MasterCalculator.csprojAssemblyReference.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\obj\Debug\TMS.Net07.Homework.MasterCalculator.csproj.CoreCompileInputs.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\obj\Debug\TMS.Net07.Homework.MasterCalculator.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.MasterCalculator\obj\Debug\TMS.Net07.Homework.MasterCalculator.pdb

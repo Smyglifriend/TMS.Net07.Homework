@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Net07.Homework.Converte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "..\Calculator\Calculator.csproj", "{31A498D4-1293-4203-B875-DFF213DF9ADD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Net07.Homework.MasterCalculator", "..\TMS.Net07.Homework.MasterCalculator\TMS.Net07.Homework.MasterCalculator.csproj", "{5B723DFF-0E3C-4E43-A243-F8F73935B4B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{31A498D4-1293-4203-B875-DFF213DF9ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A498D4-1293-4203-B875-DFF213DF9ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A498D4-1293-4203-B875-DFF213DF9ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B723DFF-0E3C-4E43-A243-F8F73935B4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B723DFF-0E3C-4E43-A243-F8F73935B4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B723DFF-0E3C-4E43-A243-F8F73935B4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B723DFF-0E3C-4E43-A243-F8F73935B4B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
