@@ -10,11 +10,6 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
     {
         static string GetDayOfWeekMiddleLevel(string date)
         {
-            if (date == "exit")
-            {
-                var exit = "You closed the program!";
-                return exit;
-            }
 
             //DateTime objDate = Convert.ToDateTime(date);
 
@@ -59,6 +54,11 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
             {
                 Console.Write("Input date: ");
                 var date = Console.ReadLine();
+                if (date == "exit")
+                {
+                    Console.WriteLine("You closed the program!");
+                    return;
+                }
 
                 var dayOfWeekFromMiddleLevel = GetDayOfWeekMiddleLevel(date);
                 var dayOfWeekTimeFromHardLevel = GetDayOfWeekHardLevel(date);
