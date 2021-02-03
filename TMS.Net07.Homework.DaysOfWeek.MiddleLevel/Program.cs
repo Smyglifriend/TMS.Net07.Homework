@@ -48,7 +48,7 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
                 else if (day == 6) { Console.WriteLine("Saturday"); }
                 else if (day == 7) { Console.WriteLine("Sunday"); }
             }
-            Console.WriteLine("\n");
+            Console.WriteLine($"{Environment.NewLine}");
             return date;
         }
         static void Main(string[] args)
