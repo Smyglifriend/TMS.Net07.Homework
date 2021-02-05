@@ -1,0 +1,7 @@
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\bin\Debug\TMS.Net07.Homework.DaysOfWeek.exe.config
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\bin\Debug\TMS.Net07.Homework.DaysOfWeek.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\bin\Debug\TMS.Net07.Homework.DaysOfWeek.pdb
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\obj\Debug\TMS.Net07.Homework.DaysOfWeek.csprojAssemblyReference.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\obj\Debug\TMS.Net07.Homework.DaysOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\obj\Debug\TMS.Net07.Homework.DaysOfWeek.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.DaysOfWeek\obj\Debug\TMS.Net07.Homework.DaysOfWeek.pdb
