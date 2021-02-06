@@ -1,0 +1,7 @@
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\bin\Debug\TMS.Net07.Homework.Task3.Part2.exe.config
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\bin\Debug\TMS.Net07.Homework.Task3.Part2.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\bin\Debug\TMS.Net07.Homework.Task3.Part2.pdb
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\obj\Debug\TMS.Net07.Homework.Task3.Part2.csprojAssemblyReference.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\obj\Debug\TMS.Net07.Homework.Task3.Part2.csproj.CoreCompileInputs.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\obj\Debug\TMS.Net07.Homework.Task3.Part2.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.Task3.Part2\obj\Debug\TMS.Net07.Homework.Task3.Part2.pdb
