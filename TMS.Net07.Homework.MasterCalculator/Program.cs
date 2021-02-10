@@ -83,9 +83,10 @@ namespace TMS.Net07.Homework.MasterCalculator
         }
         static double PowFunction(string expression)
         {
-
-            string[] solution = expression.Replace("pow",".").Split('.');            
-            return Math.Pow(double.Parse(solution[0]), double.Parse(solution[1]));
+            string[] subString = expression.Split(new string[] { "pow" }, StringSplitOptions.RemoveEmptyEntries);
+            return Math.Pow(double.Parse(subString[0]), double.Parse(subString[1]));
+            //string[] solution = expression.Replace("pow",".").Split('.');            
+            //return Math.Pow(double.Parse(solution[0]), double.Parse(solution[1]));
         }
         static double SumFunction(string expression)
         {
