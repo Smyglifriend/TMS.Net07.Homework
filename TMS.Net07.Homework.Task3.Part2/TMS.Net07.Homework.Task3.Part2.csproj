@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Factorial.cs" />
     <Compile Include="FactorialRecursion.cs" />
+    <Compile Include="fibonacci through array.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

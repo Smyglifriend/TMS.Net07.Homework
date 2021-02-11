@@ -14,7 +14,7 @@ namespace TMS.Net07.Homework.Task3.Part2
         {
             Console.WriteLine("Enter number of task:");
             Console.WriteLine($"1) Factorial {Environment.NewLine}2) Factorial through recursion{Environment.NewLine}" +
-                $"3) Fibonacci number{Environment.NewLine}4) Fibonacci through recursion {Environment.NewLine}5) Exit");
+                $"3) Fibonacci number{Environment.NewLine}4) Fibonacci through recursion {Environment.NewLine}5) Fibonacci through array{ Environment.NewLine}6) Exit");
             ConversationStatus = int.TryParse(Console.ReadLine(), out isnumber);
             
         }
@@ -41,8 +41,11 @@ namespace TMS.Net07.Homework.Task3.Part2
                             ReccFibonacci.Fibonacci();
                             break;
                         case 5:
+                            FibonacciThroughArray.MainFibonacciArray();
+                            break;
+                        case 6:
                             Console.WriteLine("You closed the program");
-                            return;
+                            return;                       
                         default:
                             Console.WriteLine("Bad input");
                             break;
