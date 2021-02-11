@@ -8,14 +8,15 @@ namespace TMS.Net07.Homework.Task3.Part2
 {
     class Program
     {
-        static int number;
+        static int isnumber;
         static bool ConversationStatus;
         static void EnterNumber()
         {
             Console.WriteLine("Enter number of task:");
             Console.WriteLine($"1) Factorial {Environment.NewLine}2) Factorial through recursion{Environment.NewLine}" +
                 $"3) Fibonacci number{Environment.NewLine}4) Fibonacci through recursion {Environment.NewLine}5) Exit");
-            ConversationStatus = int.TryParse(Console.ReadLine(), out number);
+            ConversationStatus = int.TryParse(Console.ReadLine(), out isnumber);
+            
         }
         static void Main()
         {
@@ -24,10 +25,11 @@ namespace TMS.Net07.Homework.Task3.Part2
                 EnterNumber();
                 if (ConversationStatus)
                 {
-                    switch (number)
+                    
+                    switch (isnumber)
                     {
                         case 1:
-                            Factorial.Mian_Factorial();
+                            Factorial.MianFactorial();
                             break;
                         case 2:
                             FactorialRecursion.MainRecFactorial();
@@ -36,7 +38,7 @@ namespace TMS.Net07.Homework.Task3.Part2
                             Fibonacci.MainFibonacci();
                             break;
                         case 4:
-                            RecFibonacci.Fibonacci();
+                            ReccFibonacci.Fibonacci();
                             break;
                         case 5:
                             Console.WriteLine("You closed the program");

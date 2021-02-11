@@ -11,14 +11,18 @@ namespace TMS.Net07.Homework.Task3.Part2
         public static void MainRecFactorial()
         {
             Console.WriteLine("Enter the number: ");
-            var boolean = int.TryParse(Console.ReadLine(), out var number);
-            if (boolean == false)
+            var boolean = int.TryParse(Console.ReadLine(), out var isnumber);
+            if (!boolean)
             {
                 Console.WriteLine("Enter the NUMBER!!!");
                 Console.ReadLine();
                 return;
             }
-            Console.WriteLine($"Factorial of a {number} through recursion is: {Factoriaal(number)}");
+            if (isnumber < 0)
+            {
+                isnumber *= -1;
+            }
+            Console.WriteLine($"Factorial of a {isnumber} through recursion is: {Factoriaal(isnumber)}");
             Console.ReadLine();
         }
         private static int Factoriaal(int number)
