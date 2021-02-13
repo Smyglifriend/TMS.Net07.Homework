@@ -29,11 +29,15 @@ namespace TMS.Net07.Homework.GeometricFigures
         }
         protected override int GetWidth()
         {
-            return Math.Abs(B.X - A.X);
+            return Math.Abs(C.X - A.X);
         }
         protected override int GetHeigth()
         {
-            return Math.Abs(B.Y - A.Y);
+            return Math.Abs(C.Y - A.Y);
+        }
+        public override string GetCoordinates()
+        {
+            return $"A({A.X}, {A.Y}), B({C.X}, {C.Y}) and many other points";
         }
     }
 }

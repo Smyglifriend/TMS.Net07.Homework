@@ -23,8 +23,7 @@ namespace TMS.Net07.Homework.GeometricFigures
         public Point SetY(int newY)
         {
             return new Point(X, newY);
-        }
-
+        }        
         public double GetDistance(Point target)
         {
             var width = this.X - target.X;

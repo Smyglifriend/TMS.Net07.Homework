@@ -9,12 +9,12 @@ namespace TMS.Net07.Homework.GeometricFigures
     class Rectangle : Shapes
     {
         public Point A { get; }
-        public Point B { get; }
+        public Point C { get; }
 
         public Rectangle(Point a, Point b)
         {
             A = a ?? throw new ArgumentNullException(nameof(a));
-            B = b ?? throw new ArgumentNullException(nameof(b));
+            C = b ?? throw new ArgumentNullException(nameof(b));
         }
         public override double GetPerimeter()
         {
@@ -31,14 +31,20 @@ namespace TMS.Net07.Homework.GeometricFigures
 
             return wigth * heigth;
         }
+        public override string GetCoordinates()
+        { 
+            return $"A({A.X}, {A.Y}), B({A.X}, {C.Y}), C({C.X}, {C.Y}), D({C.X}, {A.Y})";
+        }
 
         protected virtual int GetWidth()
         {
-            return Math.Abs(A.X - B.X);
+            return Math.Abs(A.X - C.X);
         }
         protected virtual int GetHeigth()
         {
-            return Math.Abs(A.Y - B.Y);
+            return Math.Abs(A.Y - C.Y);
         }
+
+
     }
 }

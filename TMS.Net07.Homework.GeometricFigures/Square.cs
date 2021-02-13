@@ -14,7 +14,7 @@ namespace TMS.Net07.Homework.GeometricFigures
         }
         public override double GetSquare()
         {
-            var check = CheckTrueOrFalse(A, B);
+            var check = CheckTrueOrFalse(A, C);
             if (check == true)
             {
                 return base.GetSquare();
@@ -26,7 +26,7 @@ namespace TMS.Net07.Homework.GeometricFigures
         }
         public override double GetPerimeter()
         {            
-            var check  = CheckTrueOrFalse(A, B);
+            var check  = CheckTrueOrFalse(A, C);
             if (check == true)
             {
                 return base.GetPerimeter(); 
@@ -46,11 +46,11 @@ namespace TMS.Net07.Homework.GeometricFigures
         }        
         protected override int GetWidth()
         {
-            return Math.Abs(A.X - B.X);
+            return Math.Abs(A.X - C.X);
         }
         protected override int GetHeigth()
         {
-            return Math.Abs(A.Y - B.Y);
+            return Math.Abs(A.Y - C.Y);
         }
     }
 }

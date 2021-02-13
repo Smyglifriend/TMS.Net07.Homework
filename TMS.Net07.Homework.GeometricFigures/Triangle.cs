@@ -32,5 +32,9 @@ namespace TMS.Net07.Homework.GeometricFigures
             return Math.Sqrt(firstSide * firstSide + secondSide * secondSide + thirdSide * thirdSide);
         }
 
+        public override string GetCoordinates()
+        {
+            return $"A({A.X}, {A.Y}), B({B.X}, {B.Y}), C({C.X}, {C.Y})";
+        }
     }
 }

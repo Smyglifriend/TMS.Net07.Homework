@@ -30,11 +30,16 @@ namespace TMS.Net07.Homework.GeometricFigures
         }
         protected override int GetWidth()
         {
-            return Math.Abs(A.X - B.X);
+            return Math.Abs(A.X - C.X);
         }
         protected override int GetHeigth()
         {
-            return Math.Abs(A.Y - B.Y);
+            return Math.Abs(A.Y - C.Y);
+        }
+        public override string GetCoordinates()
+        {
+            var radius = GetRadius();
+            return $"Centre A({A.X}, {A.Y}) with radius = {radius} sm";
         }
     }
 }
