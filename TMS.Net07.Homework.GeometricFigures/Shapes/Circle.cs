@@ -39,7 +39,7 @@ namespace TMS.Net07.Homework.GeometricFigures
         public override string GetCoordinates()
         {
             var radius = GetRadius();
-            return $"Centre A({A.X}, {A.Y}) with radius = {radius} sm";
+            return $"Centre A({A.X}, {A.Y}) with radius is {radius} sm";
         }
     }
 }

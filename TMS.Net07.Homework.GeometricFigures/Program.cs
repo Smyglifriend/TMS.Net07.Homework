@@ -26,14 +26,32 @@ namespace TMS.Net07.Homework.GeometricFigures
             var circle = new Circle(
                 new Point(6,5),
                 new Point(3,5));
-
-            Console.WriteLine(rectangle);
-            Console.WriteLine(square);
-            Console.WriteLine(triangle);
-            Console.WriteLine(hexagon);
-            Console.WriteLine(circle);
-            Console.WriteLine();
-
+            //second level
+            Drawer drawer = new ConsoleEngDescriptionDrawer();
+            while (true)
+            {
+                Console.WriteLine("Enter ru or en");
+                var str = Console.ReadLine();
+                if (str == "en")
+                {
+                    break;
+                }
+                else if(str == "ru")
+                {
+                    drawer = new ConsoleRusDescriptionDrawer();
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Ti pidor");
+                }
+            }
+            drawer.Draw(rectangle);
+            drawer.Draw(triangle);
+            drawer.Draw(square);
+            drawer.Draw(hexagon);
+            drawer.Draw(circle);
+            
             ShapeManager.PrintShapePerimeter(triangle);
             ShapeManager.PrintShapeSquare(triangle);
             Console.WriteLine();

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace TMS.Net07.Homework.GeometricFigures
 {
-    abstract class Drawer
+    public abstract class Shapes
     {
-        public abstract void Draw(Shapes shape);
-
+        public abstract double GetSquare();
+        public abstract double GetPerimeter();
+        public abstract string GetCoordinates();        
     }
 }
