@@ -10,21 +10,18 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
     {
         static string GetDayOfWeekMiddleLevel(string date)
         {
-            if (date == "exit")
+
+            //DateTime objDate = Convert.ToDateTime(date);
+
+            if (DateTime.TryParse(date, out var objDate))
             {
-                var exit = "You closed the program!";
-                return exit;
+                return objDate.DayOfWeek.ToString();
             }
-            try
+            else
             {
-                DateTime objdate = Convert.ToDateTime(date);
-                return objdate.DayOfWeek.ToString();
+
+                return "Bad input!";
             }
-            catch (Exception)
-            {
-                Console.WriteLine("Bad input! ");
-            }
-            return date;
         }
         static string GetDayOfWeekHardLevel(string date)
         {
@@ -53,14 +50,22 @@ namespace TMS.Net07.Homework.DaysOfWeek.MiddleLevel
         }
         static void Main(string[] args)
         {
-            Console.Write("Input date: ");
-            var date = Console.ReadLine();
+            while (true)
+            {
+                Console.Write("Input date: ");
+                var date = Console.ReadLine();
+                if (date == "exit")
+                {
+                    Console.WriteLine("You closed the program!");
+                    return;
+                }
 
-            var dayOfWeekFromMiddleLevel = GetDayOfWeekMiddleLevel(date);
-            var dayOfWeekTimeFromHardLevel = GetDayOfWeekHardLevel(date);
+                var dayOfWeekFromMiddleLevel = GetDayOfWeekMiddleLevel(date);
+                var dayOfWeekTimeFromHardLevel = GetDayOfWeekHardLevel(date);
 
-            Console.WriteLine($"Result from middle level: {dayOfWeekFromMiddleLevel}");
-            Console.WriteLine($"Result from hard level: {dayOfWeekTimeFromHardLevel}");
+                Console.WriteLine($"Result from middle level: {dayOfWeekFromMiddleLevel}");
+                Console.WriteLine($"Result from hard level: {dayOfWeekTimeFromHardLevel}");
+            }
         }
     }
 }

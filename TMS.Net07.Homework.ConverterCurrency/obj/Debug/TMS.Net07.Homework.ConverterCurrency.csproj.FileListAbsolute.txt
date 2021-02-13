@@ -1,0 +1,7 @@
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\bin\Debug\TMS.Net07.Homework.ConverterCurrency.exe.config
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\bin\Debug\TMS.Net07.Homework.ConverterCurrency.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\bin\Debug\TMS.Net07.Homework.ConverterCurrency.pdb
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\obj\Debug\TMS.Net07.Homework.ConverterCurrency.csprojAssemblyReference.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\obj\Debug\TMS.Net07.Homework.ConverterCurrency.csproj.CoreCompileInputs.cache
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\obj\Debug\TMS.Net07.Homework.ConverterCurrency.exe
+C:\Users\smuglifriend\OneDrive\Рабочий стол\TMS.Net07.Homework\TMS.Net07.Homework.ConverterCurrency\obj\Debug\TMS.Net07.Homework.ConverterCurrency.pdb
