@@ -44,7 +44,5 @@ namespace TMS.Net07.Homework.GeometricFigures
         {
             return Math.Abs(A.Y - C.Y);
         }
-
-
     }
 }
