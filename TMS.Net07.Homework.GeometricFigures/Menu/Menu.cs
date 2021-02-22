@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
-
-namespace TMS.Net07.Homework.GeometricFigures
+namespace TMS.Net07.Homework.GeometricFigures.Menu
 {
     public static class Menu
     {
@@ -18,38 +12,31 @@ namespace TMS.Net07.Homework.GeometricFigures
             {
                 return;
             }
-
             var shapes = Parser.Parse(input);
-            Draw(shapes);
-            //var triangle = new Triangle(points[0], points[1], points[2]);
-            //var rectangle = new Rectangle(points[0], points[1]);
+            Draw(shapes); 
+            Console.ReadKey();
+        }
 
-
-
-
-            void Draw(Shapes shape)
+        private static void Draw(Shapes shape)
+        {
+            while (true)
             {
-
-                Logger drawer = new ConsoleEngDescriptionLogger();
-                while (true)
+                Console.WriteLine("Enter ru or en");
+                var str = Console.ReadLine()?.ToLower().ToLower();
+                Logger drawer;
+                if (str == "en")
                 {
-                    Console.WriteLine("Enter ru or en");
-                    var str = Console.ReadLine()?.ToLower().ToLower();
-                    if (str == "en")
-                    {
-                        break;
-                    }
-                    else if (str == "ru")
-                    {
-                        drawer = new ConsoleRusDescriptionLogger();
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Please, enter ru or en!");
-                    }
+                    drawer = new ConsoleEngDescriptionLogger();
+                    drawer.Log(shape);
+                    break;
+                } 
+                if (str == "ru")
+                {
+                    drawer = new ConsoleRusDescriptionLogger();
+                    drawer.Log(shape);
+                    break;
                 }
-                Console.WriteLine(shape);
+                Console.WriteLine("Please, enter ru or en!");
             }
         }
     }

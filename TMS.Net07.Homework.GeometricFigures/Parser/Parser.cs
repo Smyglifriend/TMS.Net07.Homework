@@ -18,7 +18,7 @@ namespace TMS.Net07.Homework.GeometricFigures
             ["hexagon"] = @"^drawhexagon\(\d+,\d+\)\(\d+,\d+\)$"
         };
 
-        public static /*List<Point>*/ Shapes Parse(string input)
+        public static Shapes Parse(string input)
         {
             foreach (var pattern in DrawPatterns)
             {
@@ -32,7 +32,6 @@ namespace TMS.Net07.Homework.GeometricFigures
                         
                         points.Add(new Point(numbers[j], numbers[j + 1]));
                     }
-                    //return points;
                     switch (pattern.Key)
                     {
                         case "rectangle":
@@ -40,7 +39,7 @@ namespace TMS.Net07.Homework.GeometricFigures
                         case "square":
                             return new Square(points[0], points[1]);
                         case "triangle":
-                            return new Triangle(points[0], points[1], points[3]);
+                            return new Triangle(points[0], points[1], points[2]);
                         case "circle":
                             return new Circle(points[0], points[1]);
                         case "hexagon":

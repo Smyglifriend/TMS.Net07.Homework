@@ -11,8 +11,7 @@ namespace TMS.Net07.Homework.GeometricFigures
     {
         static void Main(string[] args)
         {
-            Menu.Start();
-
+            Menu.Menu.Start();
         }
     }    
 }
