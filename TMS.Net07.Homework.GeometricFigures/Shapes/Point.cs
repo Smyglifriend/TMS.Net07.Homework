@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TMS.Net07.Homework.GeometricFigures
 {
-    class Point
+    public class Point
     {
         public int X { get; }
         public int Y { get; }
@@ -27,9 +27,9 @@ namespace TMS.Net07.Homework.GeometricFigures
         public double GetDistance(Point target)
         {
             var width = this.X - target.X;
-            var heigth = this.Y - target.Y;
+            var height = this.Y - target.Y;
 
-            return Math.Sqrt(width * width + heigth * heigth);
+            return Math.Sqrt(width * width + height * height);
         }
     }
 }
